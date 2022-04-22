@@ -2,18 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* Sempre zerar as configurações de estilo do navegador */
 }
 
 :root{
-    /* configurações base do html no navegador */
-    font-size: 62.5%; /*converte de 16px para 10px a fonte padrão*/
+    font-size: 62.5%; 
 }
-
-/* rem = Root EM = equivale a unidade de medida settada no navegador */
-/* rem definido no root é 10px */
-/* unidades de medida relativas levam a responsividade */
-/* unidades abaixo de 4px, manter em px */
 
 body{
     background: #ECE9FD;
@@ -25,7 +18,6 @@ body{
 main{
     max-width: 33rem;
     margin: 0 auto;
-    /* margin:0 auto alinha tudo ao centro da tela */
 }
 
 main p:first-child{
@@ -86,8 +78,6 @@ ul li span{
     min-width: 4.7rem;
 }
 
-/* media queries - faz o ajuste das estilizações de acordo com um parametro*/
-/*  */
 @media (min-width:700px){
     body{
         padding: 8.0rem;
