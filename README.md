@@ -1,5 +1,5 @@
-Projeto Responsividade
-#Projeto para trabalhar responsividade entre diferentes dispositivos
+#Projeto Responsividade
+##Projeto para trabalhar responsividade entre diferentes dispositivos
 <hr>
 <h2>Tecnologias utilizadas:</h2>
 <ul>
